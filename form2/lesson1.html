@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validations</title>
+    <link rel="stylesheet" href="lesson1.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="form">
+            <div class="box-header">
+                <div class="image">
+                    <img src="img/images.png" alt="kenya-logo" id="kenya-log">
+                </div>
+                <div class="heading">
+                    <h1 class="heading1">One Login</h1>
+                    <p class="heading2">All Goverment Services</p>
+                </div>
+
+            </div>
+            <div class="form-input">
+                <form>
+                    <label for="Email">Email Address or ID Number</label><br>
+                    <input type="email" name="email" id="email-input" placeholder="you@example.com or 112233445">
+                    <p id="email-feedback">Enter valid Email address or ID</p>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password-input" placeholder="Password">
+                    <p id="pwd-feedback">Password must be alphnumeric and atleast 8 character</p>
+                    <p class="fgt-pwd"><a href="#">Forget your password?</a></p>
+                </form>
+            </div>
+            <div class="container-button">
+                <div class="button">
+                    <input type="submit" value="Login">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="sub-container">
+        <div class="create-account">
+            <a href="#">Create an account</a>
+        </div>
+        <div class="bottom-line"></div>
+        <div class="flex">
+            <div class="box1"><a href="#">eCitizen</a></div>
+            <div class="box1"><a href="#">eVisa</a></div>
+            <div class="box1"><a href="#">eBusiness</a></div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy 2022 - Republic of Kenya - All Rights Reserved / <a href="#">Terms of Use</a></p>
+    </footer>
+    <script src="lesson1.js"></script>
+</body>
+
+</html>
